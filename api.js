@@ -15,7 +15,7 @@ export const availibility = {
 const fetchMovieList = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(database)
+            return resolve(database)
         }, 500)
     })
 }
